@@ -41,6 +41,18 @@ Available options:
 ```
 
 
+## Examples
+
+### D-Bus monitor
+
+To just monitor D-Bus signals one can use `--verbose` flag and give no-op `:` as
+the executed command. For instance, to monitor all system D-Bus signals:
+
+```
+dbus-listen --verbose --system :
+```
+
+
 ## Building
 
 To build with nix:
